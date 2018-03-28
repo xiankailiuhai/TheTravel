@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>主页</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:title" content="Vide" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- js -->
+   <script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- animation-effect -->
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!-- //animation-effect -->
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+	<div data-vide-bg="video/sea">
+		<div class="center-container">
+			<div class="container">
+				<div class="navigation">
+					<div class="navigation-left animated wow slideInLeft" data-wow-delay="700ms">
+						<ul>
+							<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+0123 384 920</li>
+							<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">example.com</a></li>
+						</ul>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-4" id="link-effect-4">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="主页" href="index.html">主页</a></li>
+								<li><a data-hover="关于" href="#about" class="scroll">关于</a></li>
+								<li><a data-hover="服务" href="#services" class="scroll">服务</a></li>
+								<li><a data-hover="风光展示" href="#gallery" class="scroll">风光展示</a></li>
+								<li><a data-hover="联系预订" href="#mail" class="scroll">联系预订</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="logo animated wow zoomIn" data-wow-delay="900ms">
+					<h1><a href="index.html">Frequent <span>flyer</span><i>take me anywhere</i></a></h1>
+				</div>
+				<div class="start animated wow bounce" data-wow-delay="700ms">
+					<a href="#about" class="hvr-bounce-to-bottom scroll">进入</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/jquery.vide.min.js"></script>
+<!-- //banner -->
+<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="col-md-6 banner-bottom-left animated wow bounceInLeft" data-wow-delay="700ms">
+				<div class="banner-bottom-text">
+					<h2>我的</h2>
+					<div class="banner-bottom-text-pos">
+						<h3>旅行</h3>
+					</div>
+				</div>
+				<div class="bar1 bar-con">
+					<div class="bar" data-percent="70"></div>
+				</div>
+						<script>
+							(function ( $ ) {
+								  $.fn.progress = function() {
+									var percent = this.data("percent");
+									this.css("width", percent+"%");
+								  };
+								}( jQuery ));
+
+								$(document).ready(function(){
+								  $(".bar1 .bar").progress();
+								});
+						</script>
+				<p>一个人，一条路，人在途中，心随景动，从起点，到尽头，也许快乐，或有时孤独，如果心在远方，只需勇敢前行，梦想自会引路，有多远，走多远，把足迹连成生命线。</p>
+				<div class="social">
+					<ul class="social-nav model-8">
+						<li><a href="#" class="facebook"><i></i></a></li>
+						<li><a href="#" class="twitter"><i> </i></a></li>
+						<li><a href="#" class="g"><i></i></a></li>
+						<li><a href="#" class="p"><i></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6 banner-bottom-right animated wow bounceInRight" data-wow-delay="700ms">
+				<div class="banner-bottom-right-left">
+					<div class="banner-bottom-right-left1">
+						<div class="box">
+							<div class="cover top-left">
+							  <h3 class="title">reiciendis quaerat</h3>
+							  <p class="intro">出去旅行，不是去看风景，而是去寻回自己——最本真的自己!</p>
+							  <p class="date">Date: 10/03/2016</p>
+							</div>
+						</div>
+					</div>
+					<div class="banner-bottom-right-left1">
+						<div class="box box3">
+							<div class="cover top-left">
+							  <h3 class="title">reiciendis quaerat</h3>
+							  <p class="intro">一辈子是场修行，短的是旅行，长的是人生!</p>
+							  <p class="date">Date: 10/03/2016</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="banner-bottom-right-left">
+					<div class="banner-bottom-right-left1">
+						<div class="box box1">
+							<div class="cover top-left">
+							  <h3 class="title">reiciendis quaerat</h3>
+							  <p class="intro">旅行的理由不需要阐述太多，一个字就可以概括全部：走!</p>
+							  <p class="date">Date: 10/03/2016</p>
+							</div>
+						</div>
+					</div>
+					<div class="banner-bottom-right-left1">
+						<div class="box box2">
+							<div class="cover top-left">
+							  <h3 class="title">reiciendis quaerat</h3>
+							  <p class="intro">因为有梦，所以勇敢出发，选择出发，便只顾风雨兼程。!</p>
+							  <p class="date">Date: 10/03/2016</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //banner-bottom -->
+<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-grids animated wow lightSpeedIn" data-wow-delay="700ms">
+				<div class="col-md-6 about-grid-left">
+					<div class="grid">
+						<figure class="effect-moses">
+							<img src="images/4.jpg" alt=" " class="img-responsive" />
+							<figcaption>
+								<h3>Frequent <span>Flyer</span></h3>
+								<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+							</figcaption>			
+						</figure>
+					</div>
+				</div>
+				<div class="col-md-6 about-grid-right">
+					<div class="banner-bottom-text">
+						<h3>关于</h3>
+						<div class="banner-bottom-text-pos banner-bottom-text-pos1">
+							<h3>我们</h3>
+						</div>
+					</div>
+					<div class="bar1 bar-con bar-con1">
+						<div class="bar2" data-percent="70"></div>
+					</div>
+						<script>
+							(function ( $ ) {
+								  $.fn.progress = function() {
+									var percent = this.data("percent");
+									this.css("width", percent+"%");
+								  };
+								}( jQuery ));
+
+								$(document).ready(function(){
+								  $(".bar1 .bar2").progress();
+								});
+						</script>
+					<p>。。。。。。。。。。。。。。。。。。。。。。。。</p>
+					<ul>
+						<li>。。。。。。。。。。。。。。。</li>
+						<li>。。。。。。。。。。。。。。</li>
+						<li>。。。。。。。。。。。。。。。。</li>
+						<li>。。。。。。。。。。。。。</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //about -->
+<!-- about-bottom -->
+	<div class="about-bottom animated wow bounceInDown" data-wow-delay="500ms">
+		<div class="container">
+			<p>需要旅行联系我们</p>
+			<h3>+0583 8301 9101</h3>
+			<h4><i>Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+					esse quam nihil molestiae consequatur, vel illum qui dolorem</i></h4>
+		</div>
+	</div>
+<!-- //about-bottom -->
+<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="services-grids">
+				<div class="col-md-6 services-grid-left animated wow bounceInLeft" data-wow-delay="500ms">
+					<div class="banner-bottom-text">
+						<h3>提供</h3>
+						<div class="banner-bottom-text-pos">
+							<h3>服务</h3>
+						</div>
+					</div>
+					<div class="bar1 bar-con bar-con1">
+						<div class="bar3" data-percent="70"></div>
+					</div>
+						<script>
+							(function ( $ ) {
+								  $.fn.progress = function() {
+									var percent = this.data("percent");
+									this.css("width", percent+"%");
+								  };
+								}( jQuery ));
+
+								$(document).ready(function(){
+								  $(".bar1 .bar3").progress();
+								});
+						</script>
+				</div>
+				<div class="col-md-6 services-grid-right">
+					<div class="col-md-6 services-grid-right-grid">
+						<div class="services-grid-right-grid1">
+							<img src="images/10.jpg" alt=" " class="img-responsive" />
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+							  服务1
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">Frequent Flyer</h4>
+								  </div>
+								  <div class="modal-body">
+									Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+										esse quam nihil molestiae consequatur.Neque porro 
+										quisquam est, qui dolorem ipsum quia dolor sit amet, 
+										consectetur, adipisci velit, sed quia non numquam 
+										eius modi tempora incidunt ut labore et dolore 
+										magnam aliquam quaerat voluptatem. Ut enim ad minima 
+										veniam, quis nostrum exercitationem ullam corporis 
+										suscipit laboriosam, nisi ut aliquid ex ea commodi 
+										consequatur? Quis autem vel eum iure reprehenderit 
+										qui in ea voluptate velit esse quam nihil molestiae 
+										consequatur, vel illum qui dolorem eum fugiat quo 
+										voluptas nulla pariatur.
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur, vel illum qui dolorem</p>
+						</div>
+					</div>
+					<div class="col-md-6 services-grid-right-grid">
+						<div class="services-grid-right-grid1">
+							<img src="images/11.jpg" alt=" " class="img-responsive" />
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+							 服务2
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">Frequent Flyer</h4>
+								  </div>
+								  <div class="modal-body">
+									Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+										esse quam nihil molestiae consequatur.Neque porro 
+										quisquam est, qui dolorem ipsum quia dolor sit amet, 
+										consectetur, adipisci velit, sed quia non numquam 
+										eius modi tempora incidunt ut labore et dolore 
+										magnam aliquam quaerat voluptatem. Ut enim ad minima 
+										veniam, quis nostrum exercitationem ullam corporis 
+										suscipit laboriosam, nisi ut aliquid ex ea commodi 
+										consequatur? Quis autem vel eum iure reprehenderit 
+										qui in ea voluptate velit esse quam nihil molestiae 
+										consequatur, vel illum qui dolorem eum fugiat quo 
+										voluptas nulla pariatur.
+								  </div>
+								</div>
+							  </div>
+							</div>
+							<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur, vel illum qui dolorem</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //services -->
+<!-- services-bottom -->
+	<div class="services-bottom">
+		<div class="container">
+			<div class="services-bottom-grids animated wow bounceInUp" data-wow-delay="500ms">
+				<img src="images/12.jpg" alt=" " class="img-responsive" />
+				<div class="services-bottom-grid">
+					<div class="services-bottom-grid-left">
+						<h4>在我的耳朵里，有一种感觉</h4>
+						<h3>皮皮鲁 <i>Guide</i></h3>
+						<ul>
+							<li>这是我们的博物馆</li>
+							<li>这是我们的灵魂。</li>
+							<li>这是我们的工作精神。</li>
+							<li>他的工作很努力。</li>
+						</ul>
+					</div>
+					<div class="services-bottom-grid-right animated wow zoomInUp" data-wow-delay="800ms">
+						<img src="images/1.png" alt=" " class="img-responsive" />
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //services-bottom -->
+<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<div class="gallery-grids">
+				<div class="col-md-5 gallery-grid-left animated wow bounceInLeft" data-wow-delay="500ms">
+					<h3>这是我们。。。。。。。。。。。。。</h3>
+				</div>
+				<div class="col-md-7 gallery-grid-right animated wow bounceInRight" data-wow-delay="500ms">
+					<div class="banner-bottom-text">
+						<h3>风光</h3>
+						<div class="banner-bottom-text-pos banner-bottom-text-pos2">
+							<h3>展示</h3>
+						</div>
+					</div>
+					<div class="bar1 bar-con bar-con1">
+						<div class="bar3" data-percent="70"></div>
+					</div>
+						<script>
+							(function ( $ ) {
+								  $.fn.progress = function() {
+									var percent = this.data("percent");
+									this.css("width", percent+"%");
+								  };
+								}( jQuery ));
+
+								$(document).ready(function(){
+								  $(".bar1 .bar3").progress();
+								});
+						</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="gallery-grids1">
+				<div class="gallery-grid1 animated wow slideInLeft" data-wow-delay="500ms">
+					<div class="item item-type-move">
+						<a href="images/jd1.jpg" class="b-link-stripe b-animate-go  swipebox item-hover" title="Frequent Flyer">
+							<div class="item-info">
+								<div class="headline">
+									Frequent Flyer
+									<div class="line"></div>
+								</div>
+								<div class="date-month">March 29, 2016</div>							
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img">
+							<img src="images/jd1.jpg" alt=" " class="img-responsive" /> 
+						</div>	
+					</div>
+				</div>
+				<div class="gallery-grid1 animated wow slideInLeft" data-wow-delay="600ms">
+					<div class="item item-type-move">
+						<a href="images/jd2.jpg" class="b-link-stripe b-animate-go  swipebox item-hover" title="Frequent Flyer">
+							<div class="item-info">
+								<div class="headline">
+									Frequent Flyer
+									<div class="line"></div>
+								</div>
+								<div class="date-month">March 29, 2016</div>							
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img">
+							<img src="images/jd2.jpg" alt=" " class="img-responsive" /> 
+						</div>	
+					</div>
+				</div>
+				<div class="gallery-grid1 animated wow slideInLeft" data-wow-delay="700ms">
+					<div class="item item-type-move">
+						<a href="images/jd3.jpg" class="b-link-stripe b-animate-go  swipebox item-hover" title="Frequent Flyer">
+							<div class="item-info">
+								<div class="headline">
+									Frequent Flyer
+									<div class="line"></div>
+								</div>
+								<div class="date-month">March 29, 2016</div>							
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img">
+							<img src="images/jd3.jpg" alt=" " class="img-responsive" /> 
+						</div>	
+					</div>
+				</div>
+				<div class="gallery-grid1 animated wow slideInLeft" data-wow-delay="800ms">
+					<div class="item item-type-move">
+						<a href="images/jd4.jpg" class="b-link-stripe b-animate-go  swipebox item-hover" title="Frequent Flyer">
+							<div class="item-info">
+								<div class="headline">
+									Frequent Flyer
+									<div class="line"></div>
+								</div>
+								<div class="date-month">March 29, 2016</div>							
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img">
+							<img src="images/jd4.jpg" alt=" " class="img-responsive" /> 
+						</div>	
+					</div>
+				</div>
+				<div class="gallery-grid1 animated wow slideInLeft" data-wow-delay="900ms">
+					<div class="item item-type-move">
+						<a href="images/jd5.jpg" class="b-link-stripe b-animate-go  swipebox item-hover" title="Frequent Flyer">
+							<div class="item-info">
+								<div class="headline">
+									Frequent Flyer
+									<div class="line"></div>
+								</div>
+								<div class="date-month">March 29, 2016</div>							
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img">
+							<img src="images/jd5.jpg" alt=" " class="img-responsive" /> 
+						</div>	
+					</div>
+				</div>
+				<div class="gallery-grid1 animated wow slideInLeft" data-wow-delay="1000ms">
+					<div class="item item-type-move">
+						<a href="images/jd6.jpg" class="b-link-stripe b-animate-go  swipebox item-hover" title="Frequent Flyer">
+							<div class="item-info">
+								<div class="headline">
+									Frequent Flyer
+									<div class="line"></div>
+								</div>
+								<div class="date-month">March 29, 2016</div>							
+							</div>
+							<div class="mask"></div>
+						</a>
+						<div class="item-img">
+							<img src="images/jd6.jpg" alt=" " class="img-responsive" /> 
+						</div>	
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+				<!-- script-for-swipebox -->
+					<link rel="stylesheet" href="css/swipebox.css">
+					<script src="js/jquery.swipebox.min.js"></script> 
+						<script type="text/javascript">
+							jQuery(function($) {
+								$(".swipebox").swipebox();
+							});
+						</script>
+				<!-- //script-for-swipebox -->
+			</div>
+		</div>
+	</div>
+<!-- //gallery -->
+<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="col-md-6 mail-left animated wow fadeInLeft" data-wow-delay="500ms">
+				<div class="banner-bottom-text">
+					<h3>联系</h3>
+					<div class="banner-bottom-text-pos banner-bottom-text-posmail">
+						<h3>预订</h3>
+					</div>
+				</div>
+				<div class="bar1 bar-con bar-con1">
+						<div class="bar3" data-percent="70"></div>
+					</div>
+						<script>
+							(function ( $ ) {
+								  $.fn.progress = function() {
+									var percent = this.data("percent");
+									this.css("width", percent+"%");
+								  };
+								}( jQuery ));
+
+								$(document).ready(function(){
+								  $(".bar1 .bar3").progress();
+								});
+						</script>
+			</div>
+			<div class="col-md-6 mail-right animated wow fadeInLeft" data-wow-delay="700ms">
+				<h3>旅友之家...</h3>
+				<div class="mail-right-grid">
+					<ul>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i></li>
+						<li>26478 Taj Avenue<span>Newyork City XS 234 32.</span></li>
+					</ul>
+					<ul>
+						<li><i class="glyphicon glyphicon-send send" aria-hidden="true"></i></li>
+						<li><a href="mailto:info@example.com">info@example.com</a></li>
+					</ul>
+					<ul>
+						<li><i class="glyphicon glyphicon-earphone call" aria-hidden="true"></i></li>
+						<li>+1234 574 436<span>+0829 738 920</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+			<div class="mail-grids animated wow fadeInUp" data-wow-delay="700ms">
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" required="">
+					<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+					<input type="submit" value="Submit" >
+				</form>
+			</div>
+		</div>
+	</div>
+<!-- //mail -->
+<!-- footer -->
+	<div class="footer animated wow bounceInDown" data-wow-delay="600ms">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid footer-grid1">
+					<h3>加入我们</h3>
+					<ul class="social-nav model-8 social-nav1">
+						<li><a href="#" class="facebook"><i></i></a></li>
+						<li><a href="#" class="twitter"><i> </i></a></li>
+						<li><a href="#" class="g"><i></i></a></li>
+						<li><a href="#" class="p"><i></i></a></li>
+					</ul>
+					<p>To take a trivial example, which of us ever undertakes laborious 
+						physical exercise, except to obtain some advantage from it.</p>
+				</div>
+				<div class="col-md-3 footer-grid footer-grid1">
+					<h3>导航</h3>
+					<ul class="footer-nav">
+						<li><a href="index.html">主页</a></li>
+						<li><a href="#about" class="scroll">关于</a></li>
+						<li><a href="#services" class="scroll">服务</a></li>
+						<li><a href="#gallery" class="scroll">风光展示</a></li>
+						<li><a href="#mail" class="scroll">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid footer-grid1">
+					<h3>新邮件</h3>
+					<form>
+						<input type="email" value="Enter Your Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email...';}" required="">
+						<input type="submit" value="发送" >
+					</form>
+				</div>
+				<div class="col-md-3 footer-grid">
+				
+				</div>
+				<div class="clearfix"> </div>
+				<div class="footer-grid2-pos animated wow bounceIn" data-wow-delay="800ms">
+					<img src="images/2.png" alt=" " class="img-responsive" />
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<script src="js/bootstrap.min.js"></script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
